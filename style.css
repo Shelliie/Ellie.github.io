@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: seashell;
+}
+
+h1 {
+    background-color: rgb(235, 198, 250);
+    color: seashell;
+    padding: 40px;
+    margin: 0;
+}
+
+.topnav {
+    background-color: rgb(235, 198, 250);
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: rgb(231, 180, 255) 3px solid;
+}
+
+.topnav a {
+    color: seashell;
+    text-align: center;
+    padding: 50px 150.5px;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: rgb(231, 180, 255) 3px solid;
+    border-left: rgb(231, 180, 255) 3px solid;
+}
+
+.topnav a:hover {
+    background-color: seashell;
+    color: plum;
+}
+
+.topnav a.active {
+    background-color: seashell;
+    color: plum;
+}
+
+.home {
+    font-size: 25px;
+    color: plum;
+    padding-top: 175px;
+}
